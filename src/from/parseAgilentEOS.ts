@@ -1,14 +1,13 @@
+import { ICPResult, ICPDilution } from 'cheminfo-types';
 import XLSX from 'xlsx';
-
-interface ICPResult {
-  element: string;
-  wavelength: { value: number; units: string };
-  quantity: { units: string; value: number };
-}
 
 interface SampleResult {
   elements: ICPResult[];
   reference: string;
+}
+
+interface ParseAgilentEOSOptions {
+  dilution?: ICPDilution;
 }
 
 /**
@@ -18,9 +17,11 @@ interface SampleResult {
  */
 export function parseAgilentEOS(
   binary: ArrayBuffer | Uint8Array,
+  options: ParseAgilentEOSOptions = {},
 ): SampleResult[] {
   const workbook = XLSX.read(binary, { type: 'array' });
 
+  const { dilution = {} } = options;
   // summary is on Sheet2
   const matrix: (string | number)[][] = XLSX.utils.sheet_to_json(
     workbook.Sheets[workbook.SheetNames[1]],
@@ -34,10 +35,16 @@ export function parseAgilentEOS(
     const sample = { elements: [] as any, reference: line[2] as string };
     for (let i = 3; i < header.length; i++) {
       const result = JSON.parse(JSON.stringify(header[i]));
-      if (result.quantity.value === 'undefined') {
-        continue;
+      result.experimentalConcentration.value = parseFloat(`${line[i]}`);
+      if (dilution.factor) {
+        result.sampleConcentration = {
+          value: result.experimentalConcentration.value * dilution.factor,
+          units: result.experimentalConcentration.units,
+        };
       }
-      result.quantity.value = parseFloat(`${line[i]}`);
+      if (dilution.factor || dilution.solvent) {
+        result.dilution = dilution;
+      }
       sample.elements.push(result);
     }
     samples.push(sample);
@@ -55,7 +62,7 @@ function parseHeader(header: any) {
           value: Number(parts[1]),
           units: parts[2],
         },
-        quantity: {
+        experimentalConcentration: {
           value: undefined,
           units: parts[3] === 'ppm' ? 'mg/l' : parts[3],
         },
