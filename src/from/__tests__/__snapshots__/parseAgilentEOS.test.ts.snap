@@ -1,0 +1,1355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseAgilentEOS 1`] = `
+Array [
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Blank",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 1",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 2",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 3",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 4",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 5",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 6",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 7",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 8",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 9",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 10",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 11",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 12",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 13",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 14",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": -0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.6,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.59,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.59,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F1",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.17,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.15,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.17,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 2.6,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 2.58,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 2.57,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F2",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.12,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 0.12,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 2.67,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 2.66,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 2.65,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F3",
+  },
+  Object {
+    "elements": Array [
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": -0.02,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": -0.04,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      Object {
+        "element": "Al",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": -0.02,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 17.15,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 16.91,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      Object {
+        "element": "Cu",
+        "quantity": Object {
+          "units": "mg/l",
+          "value": 16.94,
+        },
+        "wavelength": Object {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F4",
+  },
+]
+`;
