@@ -1,6 +1,24 @@
 import XLSX from 'xlsx';
 
-export function parseAgilentEOS(binary: ArrayBuffer | Uint8Array) {
+interface ICPResult {
+  element: string;
+  wavelength: { value: number; units: string };
+  quantity: { units: string; value: number };
+}
+
+interface SampleResult {
+  elements: ICPResult[];
+  reference: string;
+}
+
+/**
+ * Parse an excel spreadsheet generate by Agilent EOS
+ * @param binary
+ * @returns
+ */
+export function parseAgilentEOS(
+  binary: ArrayBuffer | Uint8Array,
+): SampleResult[] {
   const workbook = XLSX.read(binary, { type: 'array' });
 
   // summary is on Sheet2
@@ -13,7 +31,7 @@ export function parseAgilentEOS(binary: ArrayBuffer | Uint8Array) {
   const header = parseHeader(matrix[0]);
   const samples = [];
   for (let line of matrix.slice(1).filter((line) => line[2])) {
-    const sample = { elements: [] as any, reference: line[2] };
+    const sample = { elements: [] as any, reference: line[2] as string };
     for (let i = 3; i < header.length; i++) {
       const result = JSON.parse(JSON.stringify(header[i]));
       if (result.quantity.value === 'undefined') {
