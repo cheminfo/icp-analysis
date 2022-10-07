@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/cheminfo/icp-analysis/compare/v0.1.0...v0.2.0) (2022-10-07)
+
+
+### Features
+
+* add dilution and solvent and enforce types from cheminfo-types ([39ace07](https://github.com/cheminfo/icp-analysis/commit/39ace07b113baa592fcebeaca4b18a6cad4fe825))
+
+
+### Bug Fixes
+
+* upgrade cheminfo-types from 0.9.1 to 0.11.1 ([#3](https://github.com/cheminfo/icp-analysis/issues/3)) ([7782af3](https://github.com/cheminfo/icp-analysis/commit/7782af370e7b3d9fa3dee5770a87a265e7ee6e90))
+
 ## 0.1.0 (2021-12-07)
 
 
