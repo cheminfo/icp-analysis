@@ -1,71 +1,119 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`parseAgilentEOS no dilution 1`] = `
-Array [
-  Object {
-    "elements": Array [
-      Object {
+exports[`dilution 1`] = `
+[
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -73,70 +121,118 @@ Array [
     ],
     "reference": "Blank",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -144,70 +240,118 @@ Array [
     ],
     "reference": "Standard 1",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.05,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.05,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.05,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -215,70 +359,118 @@ Array [
     ],
     "reference": "Standard 2",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -286,70 +478,118 @@ Array [
     ],
     "reference": "Standard 3",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -357,70 +597,118 @@ Array [
     ],
     "reference": "Standard 4",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -428,70 +716,118 @@ Array [
     ],
     "reference": "Standard 5",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 50,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 50,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 50,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -499,70 +835,118 @@ Array [
     ],
     "reference": "Standard 6",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 10,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 100,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 10,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 100,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 10,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 100,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -570,70 +954,118 @@ Array [
     ],
     "reference": "Standard 7",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -641,70 +1073,118 @@ Array [
     ],
     "reference": "Standard 8",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.05,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.05,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.05,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -712,70 +1192,118 @@ Array [
     ],
     "reference": "Standard 9",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -783,70 +1311,118 @@ Array [
     ],
     "reference": "Standard 10",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -854,70 +1430,118 @@ Array [
     ],
     "reference": "Standard 11",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -925,70 +1549,118 @@ Array [
     ],
     "reference": "Standard 12",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 50,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 50,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 5,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 50,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -996,70 +1668,118 @@ Array [
     ],
     "reference": "Standard 13",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": NaN,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 10,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 100,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 10,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 100,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 10,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 100,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -1067,70 +1787,118 @@ Array [
     ],
     "reference": "Standard 14",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": -0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": -0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.01,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.6,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 6,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.59,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5.8999999999999995,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.59,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 5.8999999999999995,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -1138,70 +1906,118 @@ Array [
     ],
     "reference": "patiny_TEST_F1",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.17,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1.7000000000000002,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.15,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.17,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1.7000000000000002,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 2.6,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 26,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 2.58,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 25.8,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 2.57,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 25.7,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -1209,70 +2025,118 @@ Array [
     ],
     "reference": "patiny_TEST_F2",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.12,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1.2,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.1,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 0.12,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 1.2,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 2.67,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 26.7,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 2.66,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 26.6,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 2.65,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 26.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },
@@ -1280,70 +2144,1472 @@ Array [
     ],
     "reference": "patiny_TEST_F3",
   },
-  Object {
-    "elements": Array [
-      Object {
+  {
+    "elements": [
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": -0.02,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": -0.2,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 308.215,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": -0.04,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": -0.4,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 309.271,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Al",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": -0.02,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": -0.2,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 396.152,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 17.15,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 171.5,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 213.598,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 16.91,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 169.1,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 324.754,
         },
       },
-      Object {
+      {
+        "dilution": {
+          "factor": 10,
+          "solvent": "Nitric acid 2%",
+        },
         "element": "Cu",
-        "experimentalConcentration": Object {
+        "experimentalConcentration": {
           "units": "mg/l",
           "value": 16.94,
         },
-        "wavelength": Object {
+        "sampleConcentration": {
+          "units": "mg/l",
+          "value": 169.4,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F4",
+  },
+]
+`;
+
+exports[`no dilution 1`] = `
+[
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Blank",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 1",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 2",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 3",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 4",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 5",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 6",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 7",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 8",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.05,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 9",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 10",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 11",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 12",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 5,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 13",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": NaN,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 10,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "Standard 14",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": -0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.01,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.6,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.59,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.59,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F1",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.17,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.15,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.17,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 2.6,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 2.58,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 2.57,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F2",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.12,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.1,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 0.12,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 2.67,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 2.66,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 2.65,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 327.395,
+        },
+      },
+    ],
+    "reference": "patiny_TEST_F3",
+  },
+  {
+    "elements": [
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": -0.02,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 308.215,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": -0.04,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 309.271,
+        },
+      },
+      {
+        "element": "Al",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": -0.02,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 396.152,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 17.15,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 213.598,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 16.91,
+        },
+        "wavelength": {
+          "units": "nm",
+          "value": 324.754,
+        },
+      },
+      {
+        "element": "Cu",
+        "experimentalConcentration": {
+          "units": "mg/l",
+          "value": 16.94,
+        },
+        "wavelength": {
           "units": "nm",
           "value": 327.395,
         },

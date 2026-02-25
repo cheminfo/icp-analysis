@@ -1,1 +1,1 @@
-export * from './from/parseAgilentEOS';
+export * from './from/parseAgilentEOS.ts';
