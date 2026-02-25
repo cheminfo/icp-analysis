@@ -14,10 +14,14 @@ Import data from ICP analysis.
 ## Usage
 
 ```js
-import { myModule } from 'icp-analysis';
+import { parseAgilentEOS } from 'icp-analysis';
 
-const result = myModule(args);
-// result is ...
+const results = parseAgilentEOS(binaryData);
+// results is an array of { elements, reference }
+
+const resultsWithDilution = parseAgilentEOS(binaryData, {
+  dilution: { factor: 10, solvent: 'Nitric acid 2%' },
+});
 ```
 
 ## License
